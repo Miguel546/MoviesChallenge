@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_one"
+            android:icon="@drawable/ic_upcoming"
+            android:title="@string/proximas_peliculas"/>
+
+        <item android:id="@+id/menu_two"
+            android:icon="@drawable/ic_search"
+            android:title="@string/peliculas_buscadas"/>
+
+        <item android:id="@+id/menu_three"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/cerrar_sesion"/>
+    </group>
+</menu>
