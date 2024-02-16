@@ -12,16 +12,21 @@
         tools:layout="@layout/fragment_upcoming" >
         <action
             android:id="@+id/action_upcomingFragment_to_detailFragment"
-            app:destination="@id/detailFragment" />
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:popEnterAnim="@anim/enter_from_left"/>
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
         android:name="com.luismiguel.movieschallenge.ui.home.search.SearchFragment"
         android:label="fragment_search"
-        tools:layout="@layout/fragment_search" >
+        tools:layout="@layout/fragment_search"
+        >
         <action
             android:id="@+id/action_searchFragment_to_detailFragment"
-            app:destination="@id/detailFragment" />
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:popEnterAnim="@anim/enter_from_left"/>
     </fragment>
     <fragment
         android:id="@+id/detailFragment"

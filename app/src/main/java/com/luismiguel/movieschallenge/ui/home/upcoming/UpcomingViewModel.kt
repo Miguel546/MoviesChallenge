@@ -23,7 +23,6 @@ class UpcomingViewModel @Inject constructor(
     private val _upcomingMovies = MutableStateFlow<DataStatusRemote<UpcomingModel?>>(DataStatusRemote.loading())
     val upcomingMovies : StateFlow<DataStatusRemote<UpcomingModel?>> = _upcomingMovies
 
-
     fun callMovies(page: Int = 1) {
         viewModelScope.launch {
             getNowMoviesUseCase.getNowMovies(page).collect {

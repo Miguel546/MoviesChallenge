@@ -51,7 +51,6 @@ class UpcomingFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         homeViewModel.putNumeroFragments(1)
-        //upcomingViewModel.callMovies()
         setupRecyclerView()
         initView()
         observe()
