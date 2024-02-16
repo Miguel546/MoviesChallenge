@@ -24,7 +24,6 @@ class LoginActivityTest {
 
     @Test
     fun loginCorrectTest() {
-
         val tieUsuario = Espresso.onView(
             withId(R.id.tieUsuario)
         )

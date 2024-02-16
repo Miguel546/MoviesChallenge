@@ -2,22 +2,18 @@ package com.luismiguel.movieschallenge.ui.home.search
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.luismiguel.movieschallenge.MainDispatcherRule
-import com.luismiguel.movieschallenge.data.network.datastatus.DataStatusLocal
 import com.luismiguel.movieschallenge.domain.model.MovieModel
 import com.luismiguel.movieschallenge.domain.usecase.local.GetAllMoviesUseCase
 import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.runBlocking
-import org.hamcrest.Matchers.equalTo
 import org.hamcrest.MatcherAssert.assertThat
-import org.junit.Assert.*
+import org.hamcrest.Matchers.equalTo
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.lang.Exception
 
 @ExperimentalCoroutinesApi
 class SearchViewModelTest {

@@ -2,11 +2,7 @@ package com.luismiguel.movieschallenge.ui.home.upcoming
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.luismiguel.movieschallenge.MainDispatcherRule
-import com.luismiguel.movieschallenge.data.entities.toDatabase
 import com.luismiguel.movieschallenge.data.network.datastatus.DataStatusRemote
-import com.luismiguel.movieschallenge.data.network.response.DatesResponse
-import com.luismiguel.movieschallenge.data.network.response.MovieResultResponse
-import com.luismiguel.movieschallenge.data.network.response.UpcomingResponse
 import com.luismiguel.movieschallenge.domain.model.DatesModel
 import com.luismiguel.movieschallenge.domain.model.MovieModel
 import com.luismiguel.movieschallenge.domain.model.UpcomingModel
@@ -16,13 +12,11 @@ import io.mockk.mockk
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.runBlocking
-import org.hamcrest.Matchers.equalTo
 import org.hamcrest.MatcherAssert.assertThat
-import org.junit.Assert.*
+import org.hamcrest.Matchers.equalTo
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.lang.Exception
 
 @ExperimentalCoroutinesApi
 class UpcomingViewModelTest {

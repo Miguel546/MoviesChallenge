@@ -4,23 +4,19 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.luismiguel.movieschallenge.data.dao.MovieFlowDao
 import com.luismiguel.movieschallenge.data.entities.MovieEntity
 import com.luismiguel.movieschallenge.data.entities.toDatabase
-import com.luismiguel.movieschallenge.data.network.datastatus.DataStatusRemote
 import com.luismiguel.movieschallenge.domain.model.MovieModel
-import com.luismiguel.movieschallenge.domain.model.UpcomingModel
 import com.luismiguel.movieschallenge.domain.model.toDomain
 import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.CoreMatchers.equalTo
-import org.junit.Rule
-import org.junit.Test
 import org.hamcrest.MatcherAssert.assertThat
 import org.junit.Assert.assertNull
-import java.lang.Exception
+import org.junit.Rule
+import org.junit.Test
 
 @ExperimentalCoroutinesApi
 class LocalRepositoryImplTest {
