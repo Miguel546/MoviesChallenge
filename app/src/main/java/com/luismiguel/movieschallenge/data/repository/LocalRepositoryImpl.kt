@@ -19,10 +19,11 @@ class LocalRepositoryImpl @Inject constructor(private val movieDao: MovieFlowDao
 
     override suspend fun getAllMoviesDB(): Flow<List<MovieModel>> = flow {
         movieDao.getAllMoviesDB().collect {
-                emit(it.map { it.toDomain() })
-
+            emit(it.map { it.toDomain() })
         }
-    }.catch { it.printStackTrace() }
+    }.catch {
+        it.printStackTrace()
+    }
 
     override suspend fun getMovieDB(id: Int): Flow<List<MovieModel>> = flow {
         movieDao.getMovie(id).collect {

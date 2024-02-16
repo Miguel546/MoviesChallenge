@@ -64,6 +64,7 @@ dependencies {
     val glideVersion = "4.16.0"
     val hamcrestVersion = "2.2"
     val roomVersion = "2.6.1"
+    val coreTestingVersion = "2.1.0"
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -101,6 +102,7 @@ dependencies {
     testImplementation("io.mockk:mockk:$mockkVersion")
     testImplementation("org.hamcrest:hamcrest:$hamcrestVersion")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesTest")
+    testImplementation("androidx.arch.core:core-testing:$coreTestingVersion")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

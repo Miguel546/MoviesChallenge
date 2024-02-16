@@ -26,7 +26,9 @@ class SearchViewModel @Inject constructor(private val getMoviesUseCase: GetAllMo
         viewModelScope.launch {
             _moviesDBList.value = DataStatusLocal.loading()
             getMoviesUseCase.invoke()
-                .catch { _moviesDBList.value = DataStatusLocal.error(it.message.toString()) }
+                .catch {
+                    _moviesDBList.value = DataStatusLocal.error(it.message.toString())
+                }
                 .collect {
                     _moviesDBList.value = DataStatusLocal.success(it)
                 }
