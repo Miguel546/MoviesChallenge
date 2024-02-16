@@ -6,4 +6,6 @@
     </style>
 
     <style name="Theme.MoviesChallenge" parent="Base.Theme.MoviesChallenge" />
+
+    <style name="MoviesChallenge.Widget.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"/>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_elevation">0dp</dimen>
+    <dimen name="common_padding_min">8dp</dimen>
+    <dimen name="product_img_width">148dp</dimen>
+    <dimen name="common_padding_default">16dp</dimen>
+    <dimen name="common_margin_horizontal">30dp</dimen>
+    <dimen name="common_margin_horizontal_2">20dp</dimen>
+</resources>

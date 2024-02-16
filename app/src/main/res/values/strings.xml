@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MoviesChallenge</string>
+    <string name="titulo_splash">App de películas</string>
+    <string name="appMovie">Aplicación de películas</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="logIn">Iniciar sesión</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="accept">Aceptar</string>
+    <string name="campos_vacios">Campos vacíos</string>
+    <string name="usuario_contra_no_vacios">El usuario y/o contraseña no deben estar vacíos.</string>
+    <string name="credenciales_incorrectas">Credenciales incorrectas</string>
+    <string name="credenciales_no_correctas">Las credenciales no son correctas.</string>
 </resources>
