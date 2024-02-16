@@ -64,24 +64,24 @@ La comunicación entre estas capas sigue un flujo unidireccional, donde la capa 
 
 2. Próximas películas
 
-![Home](imagenes/2-ProximasPeliculas.png) 
+![ProximasPeliculas](imagenes/2-ProximasPeliculas.png) 
 
 3. Detalle película
 
-![Actualizar](imagenes/3-Detail.png) 
+![Detalle](imagenes/3-Detail.png) 
 
 4. PeliculasBuscadas
 
-![Detalle](imagenes/4-PeliculasBuscadas.png) 
+![PeliculasBuscadas](imagenes/4-PeliculasBuscadas.png) 
 
-5. Compartir
+5. Menu
 
-![Compartir](imagenes/5-Compartir.png) 
+![Menu](imagenes/5-Menu.png) 
 
 
 ## Apk
 
-El apk se encuentra en la raíz --> AndroidChallenge.apk
+El apk se encuentra en la raíz --> MoviesChallenge.apk
 
 
 ## Luis Miguel Casas.
