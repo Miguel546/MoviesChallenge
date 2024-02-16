@@ -1,6 +1,5 @@
 package com.luismiguel.movieschallenge.ui.login
 
-import android.view.ViewGroup
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.action.ViewActions
 import androidx.test.espresso.assertion.ViewAssertions
@@ -12,9 +11,6 @@ import androidx.test.filters.LargeTest
 import com.luismiguel.movieschallenge.R
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
-import org.hamcrest.CoreMatchers
-import org.hamcrest.Matchers
-import org.hamcrest.core.IsInstanceOf
 import org.junit.Assert.*
 import org.junit.Rule
 import org.junit.Test
